@@ -66,7 +66,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 1px 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -85,11 +85,12 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
+  color:#007edf
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 20px;
 }
 
 h5 {
@@ -169,9 +170,6 @@ pre, code {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
-
-
-
 }
 
 pre {
@@ -235,7 +233,6 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -249,7 +246,6 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
  }
 
 form {
@@ -271,8 +267,8 @@ Full-Width Styles
 }
 
 .inner {
+  max-width: 90%;
   position: relative;
-  max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -373,8 +369,6 @@ Full-Width Styles
 #footer_wrap {
   background: #212121;
 }
-
-
 
 /*******************************************************************************
 Small Device Styles
