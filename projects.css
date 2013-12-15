@@ -1,0 +1,78 @@
+@import url("lib/jquery-ui-1.10.3.custom.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+html, body {
+    overflow: hidden;
+    background-color: #FAFFCA
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.site, .desc {
+    width: 200px;
+    height: 230px;
+    padding: 3px;
+    margin: 20px;
+    position: absolute;
+}
+.site {
+    z-index: 100;
+    background-color: #225577;
+    color: white;
+    text-align: center;
+}
+.desc {
+    z-index: 0;
+    color: gray
+}
+
+#maze-algorithm-viewer, #maze-algorithm-viewer-desc {
+    margin: 40px 40px 20px 100px;
+}
+
+#maze, #maze-desc {
+    margin: 40px 40px 20px 400px;
+}
+
+#blaze, #blaze-desc {
+    margin: 40px 40px 20px 700px;
+}
+
+#life, #life-desc {
+    margin: 340px 40px 20px 100px;
+}
+
+#T3-2, #T3-2-desc {
+    margin: 340px 40px 20px 400px;
+}
+
+#todo, #todo-desc {
+    margin: 340px 40px 20px 700px;
+}
+
+#title {
+    margin: 0 auto;
+    width: 300px;
+    line-height: 2;
+    font-size: 24px;
+    background-color: #225577;
+    text-align: center;
+    color: white;
+}
+
+#siteDesc {
+    margin: 0 auto;
+    width: 600px;
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+}
